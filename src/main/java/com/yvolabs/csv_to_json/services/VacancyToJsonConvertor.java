@@ -47,7 +47,7 @@ public class VacancyToJsonConvertor extends ObjectToJsonConvertor<Vacancy> {
         List<Vacancy> vacancyList = getVacancies();
         ObjectMapper mapper = getObjectMapper();
         consoleWrite(vacancyList, mapper);
-        // jsonFileWrite(vacancyList,mapper);
+        jsonFileWrite(vacancyList,mapper);
 
     }
 
